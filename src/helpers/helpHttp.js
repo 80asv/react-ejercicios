@@ -18,7 +18,7 @@ export const helpHttp = () => {
 
         // indicamos que si no hay una respuesta del servidor, abortara la peticion
         setTimeout(() => {
-            controller.abort()
+            controller.abort();
         }, 3000);
 
         
