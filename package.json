@@ -2,7 +2,6 @@
   "name": "react-ejercicios",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://80asv.github.io/react-router-ejercicios",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,9 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "fake-api": "json-server --watch src/api/db.json --port 5000",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "fake-api": "json-server --watch src/api/db.json --port 5000"
   },
   "eslintConfig": {
     "extends": [
@@ -38,8 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
